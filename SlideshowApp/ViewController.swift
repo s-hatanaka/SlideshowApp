@@ -141,6 +141,15 @@ class ViewController: UIViewController {
     @IBAction func tapAction(_ sender: Any) {
         self.performSegue(withIdentifier: "nextView", sender: nil)
         
+        if self.timer != nil {
+             self.timer.invalidate()
+             self.timer = nil
+        
+             nextButton.isEnabled = true
+             backButton.isEnabled = true
+             
+             switchButton.setTitle("再生", for: .normal)
+         }
     }
     
     
