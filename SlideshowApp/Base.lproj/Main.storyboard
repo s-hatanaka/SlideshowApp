@@ -114,12 +114,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="2Na-rr-Jdh" firstAttribute="centerX" secondItem="37l-6q-8VU" secondAttribute="centerX" id="5Yz-qC-J0i"/>
                             <constraint firstItem="xV4-vP-HCS" firstAttribute="trailing" secondItem="Vp7-mj-ptG" secondAttribute="trailing" constant="16" id="5j3-Ox-jgG"/>
                             <constraint firstItem="2Na-rr-Jdh" firstAttribute="centerX" secondItem="37l-6q-8VU" secondAttribute="centerX" id="Afi-rC-yed"/>
                             <constraint firstItem="2Na-rr-Jdh" firstAttribute="top" secondItem="Vp7-mj-ptG" secondAttribute="bottom" constant="48" id="Art-ws-5vq"/>
                             <constraint firstItem="2Na-rr-Jdh" firstAttribute="top" secondItem="xV4-vP-HCS" secondAttribute="top" constant="430" id="DH5-BG-fzG"/>
                             <constraint firstItem="Vp7-mj-ptG" firstAttribute="top" secondItem="xV4-vP-HCS" secondAttribute="top" constant="63" id="VYa-4L-duY"/>
-                            <constraint firstItem="Vp7-mj-ptG" firstAttribute="centerX" secondItem="37l-6q-8VU" secondAttribute="centerX" id="iMn-01-Pm4"/>
+                            <constraint firstItem="Vp7-mj-ptG" firstAttribute="centerX" secondItem="37l-6q-8VU" secondAttribute="centerX" id="azG-yT-5iZ"/>
                             <constraint firstItem="Vp7-mj-ptG" firstAttribute="centerX" secondItem="37l-6q-8VU" secondAttribute="centerX" id="jMX-YV-IWI"/>
                             <constraint firstItem="Vp7-mj-ptG" firstAttribute="leading" secondItem="xV4-vP-HCS" secondAttribute="leading" constant="16" id="nCd-Z4-tPT"/>
                         </constraints>
@@ -133,7 +134,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lIF-Z0-NOo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="SQD-WK-kGt" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1292" y="-307.38916256157637"/>
+            <point key="canvasLocation" x="1291.304347826087" y="-308.03571428571428"/>
         </scene>
     </scenes>
 </document>

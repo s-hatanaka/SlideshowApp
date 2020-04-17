@@ -98,7 +98,6 @@ class ViewController: UIViewController {
     }
     
     
-    
    
     /// 再生/停止ボタン
     @IBAction func switchButton(_ sender: Any) {
