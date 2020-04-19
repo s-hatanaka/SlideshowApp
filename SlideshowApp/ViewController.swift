@@ -30,9 +30,8 @@ class ViewController: UIViewController {
         override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view.
-        timer = Timer.scheduledTimer(timeInterval:2.0,target: self, selector: #selector(updateTimer(_:)),
-                    userInfo: nil, repeats: true)
         
+            
 //　　　　　 初期画面
             let image = UIImage(named: "dog.jpg")
             self.imageView.image = image
